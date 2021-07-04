@@ -1,0 +1,15 @@
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input{
+    margin-top: 25px;
+    width: 500px;
+    border-radius: 10px;
+}
+
+input:hover{
+    box-shadow: 2px 2px 2px gray;
+}
