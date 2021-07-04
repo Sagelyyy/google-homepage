@@ -1,0 +1,126 @@
+html { width:100%; height:100%; margin:0 padding:0; }
+body { width:100%; height:100%; margin:0; padding:0; }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input {
+    margin-top: 25px;
+    width: 550px;
+    height: 30px;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+input:hover {
+    box-shadow: 2px 2px 2px gray;
+}
+
+input:focus{
+    outline: none;
+}
+
+.top-margin {
+    margin-bottom: 200px;
+}
+
+.top-margin a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.top-margin p:hover{
+    text-decoration: underline;
+}
+
+.top-margin p {
+    display: inline-block;
+    text-align: justify;
+    font-size: 12px;
+    padding: 8px;
+}
+
+.right-nav button {
+    background-color: rgb(66 133 244);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.right-nav button:focus {
+    background-color: rgb(46, 94, 171);
+}
+
+.right-nav img{
+    position: relative;
+    bottom: -6px;
+    width: 27px;
+    height: auto;
+}
+
+.left-nav {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+
+.right-nav {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    margin-left: 85%;
+    padding: 5px;
+}
+.search-buttons {
+    display: inline-block;
+    margin-left: 50em;
+    padding-top: 25px;
+}
+
+.search-buttons button{
+    background-color: whitesmoke;
+    border: none;
+    height: 30px;
+    width: 150px;
+    cursor: pointer;
+    color: gray;
+}
+
+.search-buttons button:hover{
+    box-shadow: 1px 1px 1px gray;
+    border-color: lightgray;
+    border-radius: 5px;
+    color: black;
+}
+
+.img-overlay{
+    position: relative;
+    left: 36%;
+    top: -30px;
+    width: 540px;
+    height: 1px;
+    z-index: 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+#mic-img{
+    height: 25px;
+    float: right;
+}
+
+.footer-nav{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color:lightgray;
+}
+
+.item{
+    width: 60px;
+    height: 20px;
+    background-color: purple;
+}
