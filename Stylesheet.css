@@ -3,22 +3,18 @@ body { width:100%; height:100%; margin:0; padding:0; }
 
 .nav-container{
     display: flex;
-    background-color: purple;
     justify-content: space-between;
 }
 
 .nav-item{
-
-    border-color: green;
+    flex-basis: auto;
 }
 
 .nav-item.one{
-    background-color: pink;
     float: left;
 }
 
 .nav-item.two{
-    background-color: yellow;
     float: right;
 }
 
@@ -29,7 +25,34 @@ body { width:100%; height:100%; margin:0; padding:0; }
     padding: 8px;
 }
 
+.nav-item p:hover{
+    text-decoration: underline;
+}
+
 .nav-item a{
     color: inherit;
     text-decoration: none;
+}
+
+.search-container{
+    background-color: pink;
+    display: flex;
+    margin-top: 140px;
+    margin-left: 33%;
+    margin-right: 33%;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+.search-item.one{
+ 
+ 
+}
+
+input{
+    width: 550px;
+    height: 30px;
+    border-radius: 10px;
+    z-index: 1;
 }
