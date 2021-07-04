@@ -23,6 +23,15 @@ input:focus{
     margin-bottom: 200px;
 }
 
+.top-margin a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.top-margin p:hover{
+    text-decoration: underline;
+}
+
 .top-margin p {
     display: inline-block;
     text-align: justify;
@@ -66,10 +75,12 @@ input:focus{
     height: 30px;
     width: 150px;
     cursor: pointer;
+    color: gray;
 }
 
 .search-buttons button:hover{
     box-shadow: 1px 1px 1px gray;
     border-color: lightgray;
     border-radius: 5px;
+    color: black;
 }
