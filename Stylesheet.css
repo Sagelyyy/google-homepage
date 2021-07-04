@@ -13,8 +13,12 @@ input {
 
 input:hover {
     box-shadow: 2px 2px 2px gray;
-
 }
+
+input:focus{
+    outline: none;
+}
+
 .top-margin {
     margin-bottom: 200px;
 }
@@ -52,5 +56,20 @@ input:hover {
 }
 .search-buttons {
     display: inline-block;
-    text-align: center;
+    margin-left: 50em;
+    padding-top: 25px;
+}
+
+.search-buttons button{
+    background-color: whitesmoke;
+    border: none;
+    height: 30px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.search-buttons button:hover{
+    box-shadow: 1px 1px 1px gray;
+    border-color: lightgray;
+    border-radius: 5px;
 }
