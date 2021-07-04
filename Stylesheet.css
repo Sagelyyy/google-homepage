@@ -12,4 +12,27 @@ input{
 
 input:hover{
     box-shadow: 2px 2px 2px gray;
+
+}
+.top-margin{
+    margin-bottom: 100px;
+}
+
+.top-margin p{
+    display: inline-block;
+    text-align: justify;
+}
+
+button{
+    background-color: rgb(66 133 244);
+    color: white;
+    border: none;
+}
+
+.left-nav {
+    left: 0;
+}
+
+.right-nav {
+    margin-left: 90%;
 }
