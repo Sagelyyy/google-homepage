@@ -1,38 +1,56 @@
-.center{
+.center {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-input{
+input {
     margin-top: 25px;
-    width: 500px;
+    width: 550px;
+    height: 30px;
     border-radius: 10px;
 }
 
-input:hover{
+input:hover {
     box-shadow: 2px 2px 2px gray;
 
 }
-.top-margin{
-    margin-bottom: 100px;
+.top-margin {
+    margin-bottom: 200px;
 }
 
-.top-margin p{
+.top-margin p {
     display: inline-block;
     text-align: justify;
+    font-size: 12px;
 }
 
-button{
+.right-nav button {
     background-color: rgb(66 133 244);
     color: white;
     border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.right-nav button:focus {
+    background-color: rgb(46, 94, 171);
 }
 
 .left-nav {
-    left: 0;
+    position: absolute;
+    top: 15px;
+    left: 20px;
 }
 
 .right-nav {
-    margin-left: 90%;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    margin-left: 85%;
+    padding: 5px;
+}
+.search-buttons {
+    display: inline-block;
+    text-align: center;
 }
