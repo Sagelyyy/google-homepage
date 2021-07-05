@@ -28,18 +28,18 @@ body { width:100%; height:100%; margin:0; padding:0; }
     top: 7px;
 }
 
-.nav-item p{
+.nav-item p, .footer-item p{
     display: inline-block;
     text-align: justify;
     font-size: 12px;
     padding: 8px;
 }
 
-.nav-item p:hover{
+.nav-item p:hover, .footer-item p:hover{
     text-decoration: underline;
 }
 
-.nav-item a{
+.nav-item a, .footer-item a{
     color: inherit;
     text-decoration: none;
 }
@@ -121,3 +121,25 @@ button:hover{
     border-color: lightgray;
     border-radius: 5px;
     color: black;
+}
+
+.footer-container {
+	display: flex;
+	justify-content: space-between;
+	height: 100%;
+	position: relative;
+	top: 25.8em;
+    background-color: #F3F0E1;
+}
+
+.footer-item{
+    flex-basis: auto;
+}
+
+.footer-item.one{
+    float: left;
+}
+
+.footer-item.two{
+    float: right;
+}

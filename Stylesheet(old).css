@@ -81,7 +81,7 @@ input:focus{
     padding-top: 25px;
 }
 
-.search-buttons button{
+button{
     background-color: whitesmoke;
     border: none;
     height: 30px;
@@ -90,7 +90,7 @@ input:focus{
     color: gray;
 }
 
-.search-buttons button:hover{
+button:hover{
     box-shadow: 1px 1px 1px gray;
     border-color: lightgray;
     border-radius: 5px;
