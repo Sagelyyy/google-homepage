@@ -127,9 +127,9 @@ button:hover{
 .footer-container {
 	display: flex;
 	justify-content: space-between;
-	height: 100%;
-	position: relative;
-	top: 25em;
+	position: absolute;
+	bottom: 0;
+    width: 100%;
     background-color: #F3F0E1;
 }
 
