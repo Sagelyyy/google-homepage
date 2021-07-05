@@ -61,8 +61,8 @@ input {
 	border-radius: 10px;
 	z-index: 1;
 	border: none;
-	top: 22px;
-	right: 23px;
+	bottom: -0.7em;
+	left: 2.5em;
 }
 
 #search-bar:hover {
@@ -76,22 +76,35 @@ input:focus{
 #search-bar {
 	position: relative;
 	bottom: 30px;
-    border-radius: 20px;
+	border-radius: 20px;
+	left: 30px;
 }
 
-#search-img{
-    position: relative;
-    z-index: 1;
-    bottom: 53px;
-    right: 590px;
-}
-
-#mic-img {
+#search-mag {
 	position: relative;
-	z-index: 1;
-	bottom: 92px;
-	left: 560px;
+	bottom: 7em;
+	z-index: 2;
+	right: 15em;
+}
+
+#search-mic {
+	position: relative;
+	bottom: 4.8em;
+	z-index: 2;
+	left: 19em;
 	scale: 0.6;
+}
+
+#search-button {
+	position: relative;
+	bottom: 5em;
+	left: -5em;
+}
+
+#search-ifl {
+	position: relative;
+	bottom: 7.27em;
+	left: 7em;
 }
 
 button{
